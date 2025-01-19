@@ -35,6 +35,6 @@ def scrap(url, name):
             name_title = ing["title"]
             amount = ing.select_one('p').text.replace("x","")
             writer.writerow([name_title, amount])
-    print("Данные спизжены")
+    print("Данные спизжены!")
 
     
