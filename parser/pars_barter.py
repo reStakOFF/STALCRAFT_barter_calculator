@@ -36,7 +36,5 @@ def scrap(url, name):
             amount = ing.select_one('p').text.replace("x","")
             writer.writerow([name_title, amount])
     print("Данные спизжены")
-    
-scrap("https://stalcraft.wiki/items/weapon/5ldkg", "АКМ")
-    
+
     
