@@ -93,8 +93,9 @@ images = {
     "АМБ-17": load_image("https://stalcraft.wiki/_next/image?url=https%3A%2F%2Fstalcraftwiki-prod.b-cdn.net%2F%2Fru%2Fimages%2Fweapon%2F7lry3.png&w=1920&q=75"),
     "M16A3": load_image("https://stalcraft.wiki/_next/image?url=https%3A%2F%2Fstalcraftwiki-prod.b-cdn.net%2F%2Fru%2Fimages%2Fweapon%2Fj5lk7.png&w=1920&q=75"),
     "АК-74М": load_image("https://stalcraft.wiki/_next/image?url=https%3A%2F%2Fstalcraftwiki-prod.b-cdn.net%2F%2Fru%2Fimages%2Fweapon%2Fvjr1n.png&w=1920&q=75"),
-    
 }
+
+# test line
 
 # Создание кнопок для выбора предметов
 frame_buttons = tk.Frame(root)
